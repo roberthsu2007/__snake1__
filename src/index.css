@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-neon-blue: #00F2FF;
+  --color-neon-pink: #FF007A;
+  --color-dark-bg: #0A0A0B;
+  --color-dark-surface: #0D0D0E;
+  --color-game-bg: #050505;
+}
+
+body {
+  @apply bg-dark-bg text-[#E0E0E0] font-sans h-screen overflow-hidden;
+}
+
+.mono-stat {
+  @apply font-mono leading-tight;
+}
+
+canvas {
+  image-rendering: pixelated;
+}

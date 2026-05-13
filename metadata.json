@@ -1,0 +1,6 @@
+{
+  "name": "霓虹貪食蛇 經典版",
+  "description": "一個精美的霓虹風格貪食蛇遊戲，具備流暢的 Canvas 動畫與 React 狀態管理。",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
